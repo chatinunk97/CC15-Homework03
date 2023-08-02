@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 77rem;
+    margin: auto;
+}
+
+/* -------------------- Header -------------------------------- */
+/* Navigation Bar */
+nav {
+    width: 70rem;
+    display: flex;
+    justify-content: right;
+    /* background-color: red; */
+    margin-right: 3.75rem;
+}
+
+nav a {
+    font-weight: bold;
+    font-size: 1.25rem;
+    width: 4.4375rem;
+    margin-top: 1.69rem;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Header Profile part */
+
+
+.headprofile {
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* ---------------------------------- Headprofile Left------------------ */
+.headprofileLeft {
+    /* outline: green 5px dashed; */
+    width: 31.625rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.headprofileLeft h1 {
+    font-size: 2.75rem;
+}
+
+.headprofileLeft p {
+    font-size: 1rem;
+    width: 31.0625rem;
+    height: 4.125rem;
+}
+
+.headprofileLeft button {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 0.125rem;
+    border: none;
+    background-color: #FF6464;
+    color: white;
+
+}
+
+/* ------------------ Headprofile Right------------------ */
+.headprofileRight {
+    /* outline: blue 5px dashed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headprofileRight img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px grey;
+    width: 250px;
+}
+
+
+
+/* ------------------------------------ Recent Post -------------------------------- */
+.recentPost {
+    background-color: #EDF7FA;
+    ;
+    /* outline: 5px dashed purple; */
+    padding: 20px;
+}
+
+.recentPost>div {
+    width: 70%;
+    margin: auto;
+}
+
+.recentPost .top {
+    display: flex;
+    /* outline: red dashed 2px; */
+    align-items: baseline;
+}
+
+.top div {
+    flex-grow: 1;
+}
+
+.top a {
+    text-decoration: none;
+    color: #00A8CC;
+    text-align: right;
+}
+
+.top div>p {
+    font-size: 1.375rem;
+}
+
+.postContent {
+    /* outline: green dashed 5px; */
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+
+}
+
+.postContent>div {
+    padding: 30px;
+    background-color: white;
+    flex-grow: 1;
+
+    padding-left: 0px;
+}
+.blogDiv{
+    border-bottom:  1px solid grey;
+}
+.postContent>div p:nth-child(1) {
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.postContent>div p {
+    padding: 10px;
+}
+
+/* ------------------------------------ Feature work -------------------------------- */
+.featuredWork {}
+
+.work {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.work>p {
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: #21243D;
+    padding: 10px;
+}
+
+
+.card {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px grey solid;
+    margin-top: 10px; 
+    padding-bottom: 7px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.workText>p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.card img {
+    width: 15.375rem;
+    height: 11.25rem;
+    border-radius: 0.375rem;
+}
+
+.secondLine {
+    display: flex;
+    align-items: baseline;
+}
+
+.secondLine p {
+    margin: 5px;
+}
+
+.secondLine p:nth-child(1) {
+    font-size: 1.125rem;
+    font-weight: 900;
+    color: white;
+    border-radius: 1rem;
+    background: #142850;
+    width: 3.875rem;
+    height: 1.5625rem;
+    text-align: center;
+}
+
+.secondLine p:nth-child(2) {
+    color: var(--light, #8695A4);
+    font-family: Heebo;
+    font-size: 1.25rem;
+}
+
+/* ------------------------------------ Footer -------------------------------- */
+footer {
+    width: 100%;
+    /* background-color: red; */
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+footer img{
+    height: 50px;
+    margin: 10px;
+
+}
+footer a{
+    text-decoration: none;
+}
